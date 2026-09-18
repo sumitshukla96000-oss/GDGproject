@@ -24,6 +24,7 @@ import { getSoilData } from '../services/soilService';
 import { getSatelliteData } from '../services/satelliteService';
 import { generateAdvisory } from '../services/geminiService';
 import { FarmerProfile, AdvisoryData, RiskLevel } from '../types';
+import { translations } from '../i18n/translations';
 import { speakLocalizedText } from '../services/speechService';
 
 interface AgroadvisoryPageProps {

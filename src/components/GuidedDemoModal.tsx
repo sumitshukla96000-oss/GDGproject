@@ -16,6 +16,7 @@ import {
   ShieldCheck,
   AlertTriangle,
 } from 'lucide-react';
+import { AdvisoryData, FarmerProfile } from '../types';
 import { speakLocalizedText } from '../services/speechService';
 
 interface GuidedDemoModalProps {
